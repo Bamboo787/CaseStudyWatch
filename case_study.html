@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIKE WATCH || SHOP MUA SẮM ĐỒNG HỒ</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-shop">
+                <div class="shop-name">
+                    <h2 class="animate__animated animate__bounceInDown">LIKE</h2>
+                </div>
+                <div class="shop-name1">
+                    <label for="#show-product">
+                        <h2 class="animate__animated animate__bounceInDown">WATCH</h2>
+                    </label>
+                </div>
+            </div>
+            <div class="search-login">
+                <div>
+                    <label for="search">
+                        <input type="text" id="search" placeholder="Tìm kiếm sản phẩm">
+                        <span><i class="fas fa-search logo-search" oninput="search()"></i> </span>
+                    </label>
+                </div>
+                <span><i class="fas fa-phone-alt phone"></i></span>
+                <div class="support">
+                    <div>
+                        <div>
+                            <p>Tư vấn hỗ trợ</p>
+                        </div>
+                        <div class="sdt-login">
+                            <a href="#">02439363939</a>
+                        </div>
+                    </div>
+                </div>
+                <span><i class="fas fa-user-circle user"></i></i></span>
+                <div class="support">
+                    <div>
+                        <div>
+                            <p>Xin chào</p>
+                        </div>
+                        <div class="sdt-login login">
+                            <a href="#">Đăng nhập</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dis">
+                <div class="heart-bag">
+                    <span><a title="Giỏ hàng"><i class="fas fa-shopping-bag icon"></i></a></span>
+                    <span><a title="Sản phẩm yêu thích"><i class="fas fa-heart icon"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu  -->
+    <div class="menu">
+        <div class="list-product">
+            <div>
+                <span><i class="fas fa-bars products"></i></span>
+                <span class="products">Danh mục sản phẩm</span>
+                <div class="sub-menu">
+                    <ul>
+                        <li title="watchmen" for="#show-smartphone"><a href="#show-smartphone">Đồng Hồ Nam</a></li>
+                        <li title="watchwomen"><a>Đồng Hồ Nữ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="list-menu">
+            <a href="https://likewatch.com//" class="link">Trang chủ</a>
+            <a href="#" class="link">Giới thiệu</a>
+            <a href="#" class="link">Hệ thống</a>
+            <a href="#" class="link">Chăm sóc khách hàng</a>
+            <a href="#" class="link">Quà tặng</a>
+            <a href="#" class="link">Liên hệ</a>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <img src="images/banner.jpg" alt="banner">
+    </div>
+
+    <!-- show đồng hồ -->
+    <div class="cart-icon">
+        <p><i class="fas fa-shopping-bag icon" onclick="cartShow()"></i><span>0</span>$</p>
+    </div>
+    
+    <section class="product">
+        <div class="container">
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="images/1.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>2.600</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Omega
+                            Omega Speedmaster Calibre 321</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button> 
+                </div>
+                <div class="product-item">
+                    <img src="images/2.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>1.870</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Omega
+                            Omega De Ville Prestige, 39,5 mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/3.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>2.740</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Movado
+                            Movado Classic Museum, 40 mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+
+            </div>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="images/4.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>3.400</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">NOMOS Glashutte
+                            Nomos Glashutte Orion, 32.8mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/5.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>2.300</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Salvatore Ferragamo
+                            FERRAGAMO SLIM, 42mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/6.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>1.870</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Glashutte
+                            Glashutte Pano MaticLunar, 40mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+            </div>
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="images/7.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>3.400</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">NOMOS
+                            Tetra neomatik, 33 x 33mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/8.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>2.300</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">Movado
+                            Tetra Bold Verso, 42mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/9.jpg" alt="">
+                    <div class="product-item-text">
+                        <p class="gia"><span>1.870</span>$</p>
+                        <h2 style="font-weight: bold; font-size: 18px;">LONGINES
+                            Longines Record, 38mm</h2>
+                    </div>
+                    <button class="btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cart cart-none">
+        <p class="close" onclick="closeForm()"><span>X</span></p>
+        <h2>Giỏ hàng của tôi</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>SL</th>
+                        <th>Hoạt động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td style="display: flex; align-items: center;"><img style="width: 100px" src="images/1.jpg" alt="">Iphone 12</td>
+                        <td><span>320</span><sup>đ</sup></td>
+                        <td><input style="width: 50px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">
+                            <button onclick="remove()">Xóa</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img style="width: 100px" src="images/2.jpg" alt="">Iphone 13 pro</td>
+                        <td><span>320</span><sup>đ</sup></td>
+                        <td><input style="width: 50px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">
+                            <button onclick="remove()">Xóa</button>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div style="text-align: right;">
+                <div class="price-total">
+                    <p style="font-weight: bold;">Tổng tiền: <span>0</span>$</p>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="pay" onclick="pay()">
+                    <div>THANH TOÁN ONLINE</div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
